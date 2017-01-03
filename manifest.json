@@ -1,0 +1,13 @@
+{
+  "name": "ALSCode",
+  "version": "0.1",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+    "externally_connectable":{"matches":["*://localhost/test.html","*://localhost/ol_code_web/source/index.html","*://localhost/ol_code_web/source/index","*://localhost/source_rain_20161213/index.html","*://localhost/source_rain_20161213/index"]},
+  "permissions": ["serial"]
+}
